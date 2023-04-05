@@ -1,8 +1,8 @@
 # 1주차 스터디 과제 - HTTP 정리
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled.png)
+![image](https://i.ibb.co/M2PfYxh/Untitled.png)
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%201.png)
+![image](https://i.ibb.co/BCkyDnZ/image.png)
 
 ## HTTP (HyperText Transfer Protocol)
 
@@ -65,22 +65,22 @@
     - 리소스 조회
     - 쿼리를 통해 서버에 데이터 전달
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%202.png)
+![image](https://i.ibb.co/kBcs5nF/GET1.png)
 
 - **POST**
     - 요청 데이터처리(주로 데이터 등록에 사용)
     - 메세지 BODY를 통해 서버에 요청 데이터 전달
     - 주로 **신규 리소스** 처리에 이용
     
-    ![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%203.png)
+    ![image](https://i.ibb.co/XDFm0yG/post.png)
     
     - 서버는 신규 리소스 생성
     
-    ![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%204.png)
+    ![image](https://i.ibb.co/dcfZPYD/Untitled-4.png)
     
     - 서버는 신규 리소스 생성 후 응답 데이터를 보냄
     
-    ![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%205.png)
+    ![image](https://i.ibb.co/k5yzkKw/Untitled-5.png)
     
 - PUT
     - 리소스를 대체
@@ -90,23 +90,23 @@
 
 **리소스가 있을 때**
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%206.png)
+![image](https://i.ibb.co/3MG6SQ4/Untitled-6.png)
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%207.png)
+![image](https://i.ibb.co/7QQd6qg/Untitled-7.png)
 
 **리소스가 없을 때**
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%208.png)
+![image](https://i.ibb.co/jWMMQTM/Untitled-8.png)
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%209.png)
+![image](https://i.ibb.co/2cH2NBX/Untitled-9.png)
 
 **주의사항**
 
 **리소스를 완전히 대체함**
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%2010.png)
+![image](https://i.ibb.co/z5VGGPv/Untitled-10.png)
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%2011.png)
+![image](https://i.ibb.co/x3g1j9X/Untitled-11.png)
 
 - PATCH
     - 리소스의 일부만 변경
@@ -119,11 +119,11 @@
 
 나쁜 예
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%2012.png)
+![image](https://i.ibb.co/LhNhghr/Untitled-12.png)
 
 좋은 예
 
-![Untitled](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%20-%20HTTP%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20f234e18bec9f4bdfa3ca82c794732e95/Untitled%2013.png)
+![image](https://i.ibb.co/k45BDfY/Untitled-13.png)
 
 → 리소스와 행위를 분리
 
